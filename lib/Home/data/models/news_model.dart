@@ -43,8 +43,8 @@ class Articles extends ArticleEntity {
   factory Articles.fromMap(Map<String, dynamic> map) {
     return Articles(
       title: map['title'],
-      description: map['description'],
-      author: map['author'],
+      description: map['description'] ??'No description',
+      author: map['author'] ??'Unknown'
     );
   }
 }

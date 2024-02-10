@@ -4,7 +4,7 @@ import 'package:injectable/injectable.dart';
 
 import '../../../core/error/failures.dart';
 import '../../domain/entities/news_entity.dart';
-import '../../domain/repositories/NewsRepo.dart';
+import '../../domain/repositories/news_repo.dart';
 
 part 'home_state.dart';
 

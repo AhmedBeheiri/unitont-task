@@ -14,7 +14,7 @@ import 'package:unittoni_tasks/Home/data/data_sources/news_remote_data_source.da
     as _i3;
 import 'package:unittoni_tasks/Home/data/repositories/news_repo_impl.dart'
     as _i5;
-import 'package:unittoni_tasks/Home/domain/repositories/NewsRepo.dart' as _i4;
+import 'package:unittoni_tasks/Home/domain/repositories/news_repo.dart' as _i4;
 import 'package:unittoni_tasks/Home/presentation/manager/home_cubit.dart'
     as _i6;
 
